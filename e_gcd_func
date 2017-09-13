@@ -1,6 +1,6 @@
-var r1=0,r2=0,r_tmp=0,s1=1,s2=0,s_tmp=0,t1=0,t2=1,t_tmp=0,q=1;
-var _arr=[];
 function e_gcd(a,b){
+	var r1=0,r2=0,r_tmp=0,s1=1,s2=0,s_tmp=0,t1=0,t2=1,t_tmp=0,q=1;
+	var _arr=[];
 	_arr[0]=a;_arr[1]=b;
 	_arr=_arr.sort();
 	r1=_arr[1],r2=_arr[0];
