@@ -7,7 +7,7 @@ function e_gcd(a,b){
 	console.log(_arr);
 	while(r2!=0){
 		q=Math.floor(r1/r2);
-		console.log(q);
+		console.log("q="+q+", "+"r1="+r1+", "+"r2="+r2);
 		r_tmp=r1-(r2*q);
 		r1=r2;r2=r_tmp;
 		s_tmp=s1-(s2*q);
